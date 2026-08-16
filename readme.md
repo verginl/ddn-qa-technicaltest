@@ -42,16 +42,18 @@ The original API base URL was not provided in the technical test.
 Therefore, a local mock server using Node.js and Express is provided for testing purposes.
 
 Default base URL:
-
-http://localhost:3000
+```bash
+[npm install](http://localhost:3000)
+```
 
 Login endpoint:
-
+```bash
 POST /api/v1/auth/login
-
+```
 Full endpoint:
-
-http://localhost:3000/api/v1/auth/login
+```bash
+[POST /api/v1/auth/login](http://localhost:3000/api/v1/auth/login)
+```
 
 The mock server simulates the expected API behavior for both positive
 and negative login scenarios.
@@ -59,16 +61,19 @@ and negative login scenarios.
 ## Installation
 
 Clone the repository:
-
+```bash
 git clone https://github.com/verginl/ddn-qa-technicaltest.git
+```
 
 Navigate to the project:
-
+```bash
 cd ddn-qa-technicaltest
+```
 
 Install dependencies:
-
+```bash
 npm install
+```
 
 ## Run Mock Server
 
@@ -87,7 +92,10 @@ npx playwright test
 ```
 
 Open the report:
+
+```bash
 npx playwright show-report
+```
 
 ## Run Newman
 
@@ -97,6 +105,7 @@ The Postman collection can be executed using Newman.
 npm run test:newman
 ```
 Newman execution evidence is available in:
+
 reports/newman-report.html
 
 ## Recommended Execution Flow
