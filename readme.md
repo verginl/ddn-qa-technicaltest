@@ -7,7 +7,7 @@ API testing and automation for authentication endpoint.
 ## Technology Stack
 
 - Language: TypeScript / JavaScript
-- API Automation: Playwright
+- API Automation Framework : Playwright
 - API Client: Postman
 - CLI API Runner: Newman
 - Mock Server: Node.js + Express
